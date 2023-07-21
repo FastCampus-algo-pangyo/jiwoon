@@ -2,7 +2,9 @@ package group_study;
 
 import java.io.*;
 import java.util.*;
-
+/*
+제곱근 구하기 (골5)
+ */
 public class B_1025 {
     private static String[][] data = new String[9][9];
     private static int ans = -1;
@@ -34,6 +36,7 @@ public class B_1025 {
 
                         while (ii >= 0 && ii < n && jj >= 0 && jj < m) {
                             now += data[ii][jj];
+                            //System.out.println(now);
                             if (is_sqrt(now)) ans = Math.max(ans, Integer.parseInt(now)); //이게 더 빠름.
                             //if (sqrt_map.containsKey(now)) ans = Math.max(ans, Integer.parseInt(now));
                             ii += x;
@@ -64,6 +67,14 @@ public class B_1025 {
 
     }
 }
+
+/*
+    제곱근 구하기
+    완전탐색
+    모든 경우의 수를 구해, 각 숫자들이 제곱근이 맞는지 확인해야한다.
+    행과 열 등차를 구하는 것이 어려웠고, 결국 타 블로그를 참고했다.
+ㅜㅜ
+ */
 
 
 
