@@ -12,6 +12,7 @@ public class B_1043_2 {
     static ArrayList<Integer>[] graph, party;
     static LinkedList<Integer> lie;
     static boolean[] liar;
+    
     public void work() throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -26,6 +27,7 @@ public class B_1043_2 {
         int ans = solve();
         System.out.println(ans);
     }
+    
     private static void reset(StringTokenizer st) {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
@@ -37,6 +39,7 @@ public class B_1043_2 {
         liar = new boolean[n+1];
         lie = new LinkedList<>();
     }
+    
     private static void add_liar(StringTokenizer st) {
         int k = Integer.parseInt(st.nextToken()); //진실 아는 사람의 수.
         while (k-- > 0) {
@@ -45,6 +48,7 @@ public class B_1043_2 {
             lie.offer(kk); //거짓말 아는 사람 모아놓은 큐
         }
     }
+    
     private static void make_graph(StringTokenizer st, int i) {
         party[i] = new ArrayList<>();
         int member = Integer.parseInt(st.nextToken()); //파티에 오는 수.
@@ -59,6 +63,7 @@ public class B_1043_2 {
             graph[q].add(p);
         }
     }
+    
     private static int solve() {
         boolean[] vis = new boolean[n+1]; //무한반복을 피하기위한 방법.
         while (!lie.isEmpty()) {
