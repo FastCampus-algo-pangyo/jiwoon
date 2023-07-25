@@ -1,5 +1,3 @@
-package b_23_graph;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -8,6 +6,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class B_1043_2 {
+    
     static int n,m;
     static ArrayList<Integer>[] graph, party;
     static LinkedList<Integer> lie;
