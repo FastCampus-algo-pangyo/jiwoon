@@ -34,7 +34,7 @@ public class B_1051 {
             }
         }
 
-        System.out.println("결과 : " + solve(n,m,map));
+        System.out.println(solve(n,m,map));
 
     }
 }
