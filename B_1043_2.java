@@ -25,6 +25,13 @@ public class B_1043_2 {
         /* 초기화 및 그래프 작업 끝 */
         int ans = solve();
         System.out.println(ans);
+
+        /*
+        1. 거짓말을 아는 사람들을 모두 큐에 넣어준다. 
+        2. 파티에 온 사람들끼리 그래프, 즉 서로 연결시켜준다. 
+        3. 큐를 이용하여, 거짓말을 아는 사람들을 점차 늘려준다. 
+        4. 파티를 다시 조사하여, 결과값을 도출. 
+        */
     }
     
     private static void reset(StringTokenizer st) {
