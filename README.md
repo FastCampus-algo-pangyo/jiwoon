@@ -4,7 +4,7 @@
 <br>
 <table>
   <tr>
-<td>230728</td><td>6일차</td><td><a href ="B_1058.java" > B_1058</a></td><a href ="B_1030.java" > B_1030</a><td></td>
+<td>230728</td><td>6일차</td><td><a href ="B_1058.java" > B_1058</a></td><td><a href ="B_1030.java" > B_1030</a></td>
   </tr>
   <tr>
 <td>230726</td><td>5일차</td><td><a href ="B_1043_2.java" > B_1043</a></td><td><a href ="B_1051.java" > B_1051</a></td>
