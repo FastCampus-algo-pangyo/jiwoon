@@ -7,28 +7,20 @@ import java.util.Arrays;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-//class NGE {
-//	int index;
-//	int value;
-//	NGE (int index, int value) {
-//		this.index = index;
-//		this.value = value;
-//	}
-//}
+
 /*
- * ½ºÅÃ ÀÌ¿ë
- * °ñµå 4
- * ½ºÅÃ object¸¦ ¾²¸é, ÆíÇÏÁö¸¸ ±×¸¸Å­ ½Ã°£À» ¸¹ÀÌ ¾¸
- * ½Ã°£ ÃÊ°ú ¶ä 
- * ´ä¾ÈÁö Âü°í, 
+ * ìŠ¤íƒ ì´ìš©
+ * ê³¨ë“œ 4
+ * ìŠ¤íƒ objectë¥¼ ì“°ë©´, í¸í•˜ì§€ë§Œ ê·¸ë§Œí¼ ì‹œê°„ì„ ë§ì´ ì”€
+ * ì‹œê°„ì´ˆê³¼ ì¡°ì‹¬
  */
 public class B_17298 {
 	static int n;
 	static int[] data, res;
 	private static void solve() {
 		/*
-		linkedList ¸¦ ¾²¸é ½Ã°£ÀÌ ´õ »¡¸® °É¸®´Â ¹İ¿¡, ¸Ş¸ğ¸®¸¦ ´õ »ç¿ëÇÏ°í,
-		StackÀ» ¾²¸é ½Ã°£ÀÌ ´õ ¿À·¡°É¸®Áö¸¸ ¸Ş¸ğ¸®¸¦ ´ú »ç¿ëÇÔ. ¹Ì¼¼ÇÑ Â÷ÀÌÀÓ.
+		linkedList ë¥¼ ì“°ë©´ ì‹œê°„ì´ ë” ë¹¨ë¦¬ ê±¸ë¦¬ëŠ” ë°˜ì—, ë©”ëª¨ë¦¬ë¥¼ ë” ì‚¬ìš©í•˜ê³ ,
+		Stackì„ ì“°ë©´ ì‹œê°„ì´ ë” ì˜¤ë˜ê±¸ë¦¬ì§€ë§Œ ë©”ëª¨ë¦¬ë¥¼ ëœ ì‚¬ìš©í•¨. ë¯¸ì„¸í•œ ì°¨ì´ì„.
 		 */
 //        LinkedList<Integer> stack = new LinkedList<>();
 		Stack<Integer> stack = new Stack<>();
