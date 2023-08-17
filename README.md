@@ -3,6 +3,9 @@
 
 <br>
 <table>
+    <tr>
+<td>230817</td><td>14일차</td><td><a href ="B_17141.java" >B_17141</a></td><td></td>
+  </tr>
    <tr>
 <td>230811</td><td>13일차</td><td><a href ="B_1124.java" >B_1124</a></td><td><a href ="B_1062.java" >B_1062</a></td>
   </tr>
