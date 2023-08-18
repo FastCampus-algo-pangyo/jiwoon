@@ -12,34 +12,34 @@ public class B_2666 {
 			return;
 		}
 		
-		//op1À» ¼±ÅÃÇÒ °æ¿ì.
+		//op1ì„ ì„ íƒí•  ê²½ìš°.
 		func(depth+1, sum+Math.abs(seq[depth]-op1), seq[depth], op2);
-		//op2¸¦ ¼±ÅÃÇÒ °æ¿ì. 
+		//op2ë¥¼ ì„ íƒí•  ê²½ìš°. 
 		func(depth+1, sum+Math.abs(seq[depth]-op2), op1, seq[depth]);
 		
 	}
 	public void work() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		/* º¯¼ö ÃÊ±âÈ­ °úÁ¤ */
-		n = Integer.parseInt(br.readLine()); //º®ÀåÀÇ °¹¼ö
+		/* ë³€ìˆ˜ ì´ˆê¸°í™” ê³¼ì • */
+		n = Integer.parseInt(br.readLine()); //ë²½ì¥ì˜ ê°¯ìˆ˜
 		
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int op1 = Integer.parseInt(st.nextToken()); //¿­·ÁÀÖ´Â º®Àå¹®1
-		int op2 = Integer.parseInt(st.nextToken()); //¿­·ÁÀÖ´Â º®Àå¹® 2
+		int op1 = Integer.parseInt(st.nextToken()); //ì—´ë ¤ìˆëŠ” ë²½ì¥ë¬¸1
+		int op2 = Integer.parseInt(st.nextToken()); //ì—´ë ¤ìˆëŠ” ë²½ì¥ë¬¸ 2
 		
-		m = Integer.parseInt(br.readLine()); //¼ø¼­ÀÇ ±æÀÌ
-		seq = new int[m]; //º®ÀåÀÇ ¼ø¼­´ë·Î ´ã´Â ¹è¿­. 
+		m = Integer.parseInt(br.readLine()); //ìˆœì„œì˜ ê¸¸ì´
+		seq = new int[m]; //ë²½ì¥ì˜ ìˆœì„œëŒ€ë¡œ ë‹´ëŠ” ë°°ì—´. 
 		for (int i = 0; i < m; i++) seq[i] = Integer.parseInt(br.readLine());
 		
-		/* °è»ê ½ÃÀÛ */
+		/* ê³„ì‚° ì‹œì‘ */
 		
 		func(0,0,op1,op2);
 		
 		/*
-		 * ¿ÏÀüÅ½»ö, °æ¿ìÀÇ ¼ö¸¦ ¸ğµÎ µûÁ®ºÁ¾ßÇÑ´Ù. 
-		 * º®Àå ¹®À» op1À» ¼±ÅÃÇÒ ¶§¿Í op2¸¦ ¼±ÅÃÇÒ ¶§¸¦ ³ª´©¾î °è»êÇØÁØ´Ù.
-		 * º®Àå ÃÖ´ë±æÀÌ°¡ 20ÀÌ¹Ç·Î, 2ÀÇ 20½Â = ¾à¹é¸¸ ÀÌ¹Ç·Î, 
-		 * 1ÃÊÀÇ ½Ã°£ ¾È¿¡ ¿¬»êÀÌ ¹ú¾îÁø´Ù. (1ÃÊ = ¾à 1¾ï¹øÀÇ ¿¬»ê)
+		 * ì™„ì „íƒìƒ‰, ê²½ìš°ì˜ ìˆ˜ë¥¼ ëª¨ë‘ ë”°ì ¸ë´ì•¼í•œë‹¤. 
+		 * ë²½ì¥ ë¬¸ì„ op1ì„ ì„ íƒí•  ë•Œì™€ op2ë¥¼ ì„ íƒí•  ë•Œë¥¼ ë‚˜ëˆ„ì–´ ê³„ì‚°í•´ì¤€ë‹¤.
+		 * ë²½ì¥ ìµœëŒ€ê¸¸ì´ê°€ 20ì´ë¯€ë¡œ, 2ì˜ 20ìŠ¹ = ì•½ë°±ë§Œ ì´ë¯€ë¡œ, 
+		 * 1ì´ˆì˜ ì‹œê°„ ì•ˆì— ì—°ì‚°ì´ ë²Œì–´ì§„ë‹¤. (1ì´ˆ = ì•½ 1ì–µë²ˆì˜ ì—°ì‚°)
 		 * 
 		 */
 		
