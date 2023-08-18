@@ -3,13 +3,13 @@ import java.io.*;
 import java.util.*;
 
 /*
- * ÇÇº¸³ªÄ¡ ºñ½º¹«¸®ÇÑ ¼ö¿­ (½Ç¹ö4)
+ * í”¼ë³´ë‚˜ì¹˜ ë¹„ìŠ¤ë¬´ë¦¬í•œ ìˆ˜ì—´ (ì‹¤ë²„4)
  */
 public class B_14495 {
 	public void work() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-		long[] f = new long[n+1]; //nÀÇ ÃÖ´ñ°ªÀÎ 116Àº intÇüÀÇ ¹üÀ§¸¦ ³Ñ¾î°¡¹Ç·Î long ÇüÅÂ·Î ¼±¾ð. 
+		long[] f = new long[n+1]; //nì˜ ìµœëŒ“ê°’ì¸ 116ì€ intí˜•ì˜ ë²”ìœ„ë¥¼ ë„˜ì–´ê°€ë¯€ë¡œ long í˜•íƒœë¡œ ì„ ì–¸. 
 		
 		if (n >= 3)f[1] = f[2] = f[3] = 1;		
 		else if (n >= 2) f[1] = f[2] = 1;
