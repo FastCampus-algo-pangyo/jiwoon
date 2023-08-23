@@ -3,6 +3,9 @@
 
 <br>
 <table>
+  <tr>
+<td>230823</td><td>16일차</td><td><a href ="/here/B_15686.java" >B_15686</a></td><td></td>
+  </tr>
 <tr>
 <td>230818</td><td>15일차</td><td><a href ="/here/B_12919.java" >B_12919</a></td><td><a href = "https://nebulaisme.tistory.com/78">문제 풀이</a></td>
   </tr>
