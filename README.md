@@ -4,6 +4,9 @@
 <br>
 <table>
    <tr>
+<td>230908</td><td>22일차</td><td><a href ="/here/B_2410.java" >B_2410</a></td><td></td>
+  </tr>
+   <tr>
 <td>230907</td><td>21일차</td><td><a href ="/here/B_17135.java" >B_17135</a></td><td></td>
   </tr>
    <tr>
