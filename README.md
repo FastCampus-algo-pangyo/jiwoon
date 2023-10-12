@@ -4,6 +4,9 @@
 <br>
 <table>
    <tr>
+<td>231012</td><td>24일차</td><td><a href ="/here/연속된 부분 수열.java" >연속된 부분 수열</a></td><td></td>
+  </tr>
+   <tr>
 <td>231006</td><td>23일차</td><td><a href ="/here/P_1832.java" >보행자천국</a></td><td></td>
   </tr>
    <tr>
