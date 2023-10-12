@@ -26,7 +26,7 @@ public class P_178870 {
             } else if (sum == k) {
 
                 if (en-st+1 < len) {
-                    answe디r[0] = st;
+                    answer[0] = st;
                     answer[1] = en;
                     len = en - st + 1;
                     if (len == 1) break;
