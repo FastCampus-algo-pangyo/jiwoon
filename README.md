@@ -3,6 +3,9 @@
 
 <br>
 <table>
+    <tr>
+<td>231017</td><td>26일차</td><td><a href ="/here/P_231017.java" >광물 캐기</a></td><td></td>
+  </tr>
    <tr>
 <td>231012</td><td>24일차</td><td><a href ="/here/연속된 부분 수열.java" >연속된 부분 수열</a></td><td></td>
   </tr>
