@@ -4,6 +4,9 @@
 <br>
 <table>
     <tr>
+<td>231020</td><td>28일차</td><td><a href ="/here/P_231020.java" >미로찾기</a></td><td></td>
+  </tr>
+    <tr>
 <td>231019</td><td>27일차</td><td><a href ="/here/P_231019.java" >리코쳇로봇</a></td><td></td>
   </tr>
     <tr>
