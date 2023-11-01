@@ -4,7 +4,7 @@
 <br>
 <table>
     <tr>
-<td>231101</td><td>29일차</td><td><a href ="/here/호텔대실" >호텔대실</a></td><td></td>
+<td>231101</td><td>29일차</td><td><a href ="here/호텔대실.java" >호텔대실</a></td><td></td>
   </tr>
     <tr>
 <td>231020</td><td>28일차</td><td><a href ="/here/P_231020.java" >미로찾기</a></td><td></td>
